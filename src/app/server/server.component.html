@@ -1,0 +1,6 @@
+<h5 class="m-2"> 
+  {{ serverName }} is {{ getServerStatus() }}
+  <input type="checkbox" (change)="changeServerStatus()"> &nbsp; &nbsp;
+  <button type="button" class="btn btn-danger" (click)="removeServer()">Delete</button>
+</h5>
+
